@@ -6,6 +6,7 @@ import asyncio
 import time
 import lxml
 from gtts import gTTS
+import os
 bot = commands.Bot(command_prefix='~')
 
 @bot.event
@@ -47,5 +48,5 @@ async def out(ctx):
     except:
         await ctx.send("이미 채널에서 나가있습니다")
         
-        
-bot.run('MTA1ODc0NTIzNjA2MDM5MzU1Mg.GNnt_J.CjZAr1hfnkWSTxvmyoqinSrxfm_ct7Z-DblJqo')
+access_token = os.environ["BOT_TOKEN"]
+bot.run(access_token)
