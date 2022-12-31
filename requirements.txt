@@ -1,5 +1,5 @@
 discord.py==1.7.3
-asyncio.py==3.4.3
-lxml.py==4.9.1
-gTTS.py==4.3.0
-FFmpeg.py==1.4
+asyncio==3.4.3
+lxml==4.9.1
+gTTS==4.3.0
+FFmpeg==1.4
